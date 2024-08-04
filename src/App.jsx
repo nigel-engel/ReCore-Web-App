@@ -1,5 +1,6 @@
 import './App.css'
 import Hero from './Components/Hero'
+import Email from './Components/emails/sample-email'
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <div>
       
-    <Hero  /> 
+    <Hero/>
+    <Email/> 
     </div>
   )
 }
