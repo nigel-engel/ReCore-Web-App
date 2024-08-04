@@ -1,8 +1,12 @@
 .background-grid {
-  background-image: linear-gradient(#0f172a 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #0f172a calc(100% - 0.5px)), linear-gradient(90deg, #0f172a 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #0e182a calc(100% - 0.5px));
-  background-size: 10% 150%;
-  border: 1px solid #0f172a;
+  background-image: 
+    linear-gradient(rgba(15, 23, 42, 0.5) 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #0f172a calc(100% - 0.5px)), 
+    linear-gradient(90deg, rgba(15, 23, 42, 0.5) 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), rgba(15, 23, 42, 0.5) calc(100% - 0.5px));
+  background-size: 12.5% 50%;
+  width: 100%; /* Ensures it covers the full width of its container */
+  height: 100%; /* Ensures it covers the full height of its container */
 }
+
 
 ::selection {
   background: rgba(5, 150, 105, 0.5); /* Background color */
