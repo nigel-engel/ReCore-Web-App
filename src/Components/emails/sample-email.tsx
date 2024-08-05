@@ -82,17 +82,17 @@ export default function Email() {
               <Row className="mt-[40px]">
                 <Column align="right" style={{ width: "45%" }}>
                   <Link href="#">
-                    <Img src="https://tinypic.host/images/2024/07/13/X.png" alt="X" border="0" width="22px" />
+                    <Img src="https://tinypic.host/images/2024/07/13/X.png" alt="X"   width="22px" />
                   </Link>
                 </Column>
                 <Column>
                   <Link href="#">
-                    <Img style={{margin: "auto"}} src="https://tinypic.host/images/2024/07/13/Linkedin.png" alt="Linkedin" border="0" width="22px" />
+                    <Img style={{margin: "auto"}} src="https://tinypic.host/images/2024/07/13/Linkedin.png" alt="Linkedin" width="22px" />
                   </Link>
                 </Column>
                 <Column align="left" style={{ width: "45%" }}>
                   <Link href="#">
-                    <Img src="https://tinypic.host/images/2024/07/13/Instagram.png" alt="Instagram" border="0" width="22px" />
+                    <Img src="https://tinypic.host/images/2024/07/13/Instagram.png" alt="Instagram" width="22px" />
                   </Link>
                 </Column>                               
               </Row>

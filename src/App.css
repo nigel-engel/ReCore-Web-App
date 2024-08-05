@@ -9,10 +9,38 @@
 
 
 ::selection {
-  background: rgba(5, 150, 105, 0.5); /* Background color */
-  color: #6ee7b7; /* Text color */
+  background: rgba(37, 99, 235); /* Background color */
+  color: white; /* Text color */
 }
 
 .body {
   font-family: 'Inter', sans-serif;
+}
+
+.--h1title {
+  @apply text-slate-50 text-5xl font-bold lg:text-6xl;
+}
+
+.--h2title {
+  @apply text-slate-50 text-3xl font-semibold lg:text-4xl;
+}
+
+.--subtitle {
+  @apply  text-slate-400 text-2xl;
+}
+
+.--pretitle {
+  @apply text-base text-slate-300
+}
+
+.--para {
+  @apply text-slate-400 text-xl;
+}
+
+.--li {
+  @apply text-slate-400 font-medium
+}
+
+.--li-icon {
+  @apply m-4 text-2xl text-purple-300
 }
