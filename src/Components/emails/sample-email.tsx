@@ -19,12 +19,13 @@ import * as React from "react";
 
 export default function Email() {
   return (
-    <div className="flex justify-center mx-auto">
-    <Html lang="en" dir="ltr">
+    <div className="max-w-[800px] mx-auto px-6">
+      <div className="flex px-6 max-w-[600px] mt-10 lg:mx-auto rounded-md bg-white">
+      <Html lang="en" dir="ltr">
       <Head />
       <Preview>This is the preview text of the email</Preview>
       <Tailwind>
-        <Body className="bg-gray-500 max-w-[580px] mx-auto my-auto">
+        <Body className="max-w-[580px]">
           <Container className="bg-white mt-[32px] p-[20px] leading-[24px] tracking-normal">
             <Section>
               <Row>
@@ -42,13 +43,13 @@ export default function Email() {
               </Row>
             </Section>
             
-            <Heading className="text-[31px] font-semibold text-gray-950">
+            <Heading className="text-[31px] mt-10 font-semibold text-gray-950">
               Password Reset
             </Heading>
             
             <Button
               href="https://example.com"
-              className="bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4"
+              className="bg-blue-600 text-white font-bold py-2 px-4 rounded my-8"
             > 
               Reset Your Password →
             </Button>
@@ -61,13 +62,12 @@ export default function Email() {
             <Section className="m-5">
               <Text className="text-[16px] text-gray-600">
                 1. Enter a new password.
-              </Text>
-              <Text className="text-[16px] text-gray-600">
+                <br></br>
                 2. Confirm your new password.
-              </Text>
-              <Text className="text-[16px] text-gray-600">
+                <br></br>
                 3. Submit new password.
               </Text>
+              
             </Section>
             
             <Heading className="text-[20px] font-semibold text-gray-950">
@@ -109,6 +109,7 @@ export default function Email() {
         </Body>
       </Tailwind>
     </Html>
+    </div>
     </div>
   );
 }
